@@ -18,25 +18,33 @@ struct ContentView: View {
         NavigationView{
             List(fetcher.users){ user in
                 //User row
-                VStack(alignment: .leading){
-                    HStack{
-                        Image(user.image)
-                            .resizable()
-                            .frame(width: 80, height: 80)
-                            .clipShape(Circle())
-                           .overlay(Circle().stroke(Color.black, lineWidth:4))
-                            //.clipped()
-                            
-                        VStack(alignment: .leading){
-                            Text(user.name).font(.headline)
-                            Text(user.company).font(.subheadline)
-                            
-                        }.padding(.leading, 8)
-                    }.padding(.bottom, 8)
-                    Text(user.description).lineLimit(nil)
-                }.padding(.init(top: 10, leading: 0, bottom: 10, trailing: 0))
+                UserRow(user: user)
+                
             }.navigationBarTitle(Text("Dynamic List"))
         }
+    }
+}
+
+struct UserRow: View  {
+    var user : UserModel
+    
+    var body: some View{
+        VStack(alignment: .leading){
+            HStack{
+                Image(user.image)
+                    .resizable()
+                    .frame(width: 80, height: 80)
+                    .clipShape(Circle())
+                    .overlay(Circle().stroke(Color.black, lineWidth:4))
+                
+                VStack(alignment: .leading){
+                    Text(user.name).font(.headline)
+                    Text(user.company).font(.subheadline)
+                    
+                }.padding(.leading, 8)
+            }.padding(.bottom, 8)
+            Text(user.description).font(.body).lineLimit(nil)
+        }.padding(.init(top: 10, leading: 0, bottom: 10, trailing: 0))
     }
 }
 
