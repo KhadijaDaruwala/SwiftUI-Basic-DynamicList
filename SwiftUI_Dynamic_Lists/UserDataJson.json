@@ -1,0 +1,74 @@
+
+[
+    {
+        "id": 0,
+        "name": "Elon Musk",
+        "company": "CEO Tesla" ,
+        "description": "With a total compensation of $513 million, Elon Musk's name at the top of this list obviously raises many eyebrows",
+        "image": "elon_musk"
+    },
+    {
+        "id": 1,
+        "name": "Brendan Kennedy",
+        "company": "CEO and President, Tilray" ,
+        "description": "Over 95% of Kennedy's 2018 package, which totaled $256 million, consisted of a pre-IPO bonus. His base salary was $425,000 in 2018, up from $375,000 in 2017. He received a bonus equal to his base salary in addition to options awards worth $11.3 million.",
+        "image": "brendan_kennedy"
+    },
+    {
+        "id": 2,
+        "name": "Bob Iger",
+        "company": "CEO and Chairman, Walt Disney" ,
+        "description": "In 2017, Walt Disney Co. (DIS) extended CEO Robert Iger's contract through 2021. It compensated him generously for his willingness to stay and for his successful closing of the 21st Century Fox deal",
+        "image": "bob_iger"
+    },
+    {
+        "id": 3,
+        "name": "Tim Cook",
+        "company": "CEO Apple" ,
+        "description": "In Aug. 2018, Apple (AAPL) granted Cook 280,000 time-based and 280,000 performance-based vested restricted stock.5﻿ These stock awards were worth $126 million.",
+        "image": "tim_cook"
+    },
+    {
+        "id": 4,
+        "name": "Nikesh Arora",
+        "company": "CEO and Chairman, Palo Alto Networks" ,
+        "description": "Palo Alto Networks (PANW) CEO Nikesh Arora, a former Google and SoftBank executive, was hired in June 2018 to lead the Santa Clara-based cybersecurity firm. Despite his lack of experience in the area, he was rewarded handsomely with a lucrative pay package.",
+        "image": "nikesh_arora"
+    },
+    {
+        "id": 5,
+        "name": "David Zaslav",
+        "company": "CEO and President, Discovery" ,
+        "description": "Zaslav, who has led Discovery (DISCA) since 2007, signed a new employment contract in 2018 that provided $122 million in compensation and represented a significant pay bump.",
+        "image": "david_zaslav"
+    },
+    {
+        "id": 6,
+        "name": "James Heppelmann",
+        "company": "CEO and President, PTC" ,
+        "description": "Shares of Boston-based computer software and services company PTC Inc. (PTC) hit a record high in 2018, and CEO James Heppelmann took home a bonus of $961,000 along with his base salary of $800,000.",
+        "image": "james_heppelmann"
+    },
+    {
+        "id": 7,
+        "name": "Stephen Schwarzman",
+        "company": "CEO/Chairman Blackstone Group LP" ,
+        "description": "Blackstone Group LP (BX) CEO Stephen Schwarzman co-founded the multinational investment firm in 1985 with a balance sheet of $400,000 and a staff of four.",
+        "image": "stephen_schwarzman"
+    },
+    {
+        "id": 8,
+        "name": "Tony James",
+        "company": "Executive Vice Chairman, Blackstone Group LP" ,
+        "description": "Harvard alum and Blackstone veteran, Hamilton Tony James, handed over day-to-day management of the firm to Jon Gray in 2018 and assumed the title of executive vice chairman.",
+        "image": "tony_james"
+    },
+    {
+        "id": 9,
+        "name": "Stephen Angel",
+        "company": "CEO, Linde PLC" ,
+        "description": "The merger of industrial gas major Linde PLC (LIN) and Praxair Inc. was completed in 2018. Angel was the CEO and chairman at Praxair since 2007 before taking the role of CEO at Linde after the merger",
+        "image": "stephen_angel"
+    }
+]
+
